@@ -1,8 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter, audioWide, b612Mono, rubik } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Arumxchan | Art",
@@ -16,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.variable} ${audioWide.variable} ${b612Mono.variable} ${rubik.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
