@@ -12,7 +12,7 @@ export function ProfileCard() {
         className="rounded-full"
         alt="Arumxchan's Profile Picture"
       />
-      <h1 className="font-audio-wide mt-8 text-xl font-bold tracking-widest uppercase">
+      <h1 className="font-audio-wide mt-8 text-lg font-bold tracking-widest uppercase">
         {"⭐ Arumxchan's Portfolio ⭐"}
       </h1>
       <h2 className="font-b612mono text-base font-semibold mb-4">
