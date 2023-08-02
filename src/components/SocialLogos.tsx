@@ -1,3 +1,16 @@
+import Image from "next/image";
+import instagramSvg from "../../public/svg/instagram-logo.svg";
+import linkedinSvg from "../../public/svg/linkedin-logo.svg";
+
+export function InstagramLogo() {
+  return <Image src={instagramSvg} alt="Instagram Logo" />;
+}
+
+export function LinkedinLogo() {
+  return <Image src={linkedinSvg} alt="Linkedin Logo" />;
+}
+
+/* OLD LOGOS
 export function InstagramLogo() {
   return (
     <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -13,3 +26,4 @@ export function LinkedinLogo() {
     </svg>
   );
 }
+ */

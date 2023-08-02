@@ -12,28 +12,28 @@ type HomeProps = {
 function Home({ images, searchParams }: HomeProps) {
   return (
     <>
-      <main className="mx-auto max-w-[1960px] p-4 font-inter">
+      <main className="mx-auto max-w-[1960px] p-4 font-gluten">
         {searchParams?.image && <ImageModal image={searchParams.image} />}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
           <ProfileCard />
           <ImagesRender images={images} />
         </div>
       </main>
-      <footer className="font-inter p-6 text-center text-white/80 sm:p-12">
-        Made with ❤️ by{" "}
+      <footer className="font-gluten font-light p-6 text-center text-white/80 sm:p-12">
+        Made with 💜 by{" "}
         <a
           href="https://www.github.com/noel-lopez"
           target="_blank"
-          className="font-semibold hover:text-white"
+          className="font-medium hover:text-pink-200"
           rel="noreferrer"
         >
           Noel Lopez
         </a>
-        , designed by{" "}
+        , illustrations by{" "}
         <a
           href="https://www.instagram.com/arumxchan"
           target="_blank"
-          className="font-semibold hover:text-white"
+          className="font-medium hover:text-pink-200"
           rel="noreferrer"
         >
           Alma Escamilla

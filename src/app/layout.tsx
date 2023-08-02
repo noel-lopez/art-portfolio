@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { inter, audioWide, b612Mono, rubik } from "./fonts";
+import { gluten } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Arumxchan | Art",
@@ -14,11 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body
-        className={`${inter.variable} ${audioWide.variable} ${b612Mono.variable} ${rubik.variable}`}
-      >
-        {children}
-      </body>
+      <body className={`${gluten.variable}`}>{children}</body>
     </html>
   );
 }

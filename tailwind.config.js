@@ -13,10 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        inter: ["var(--font-inter)"],
-        "audio-wide": ["var(--font-audio-wide)"],
-        b612mono: ["var(--font-b612-mono)"],
-        rubik: ["var(--font-rubik)"],
+        gluten: ["var(--font-gluten)"],
       },
     },
   },
