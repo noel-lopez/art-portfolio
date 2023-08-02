@@ -19,12 +19,12 @@ function Home({ images, searchParams }: HomeProps) {
           <ImagesRender images={images} />
         </div>
       </main>
-      <footer className="font-gluten font-light p-6 text-center text-white/80 sm:p-12">
+      <footer className="font-gluten font-light p-6 text-center text-white/90 sm:p-12 selection:bg-purple-300 selection:text-black">
         Made with 💜 by{" "}
         <a
           href="https://www.github.com/noel-lopez"
           target="_blank"
-          className="font-medium hover:text-pink-200"
+          className="font-medium hover:text-purple-300"
           rel="noreferrer"
         >
           Noel Lopez
@@ -33,7 +33,7 @@ function Home({ images, searchParams }: HomeProps) {
         <a
           href="https://www.instagram.com/arumxchan"
           target="_blank"
-          className="font-medium hover:text-pink-200"
+          className="font-medium hover:text-purple-300"
           rel="noreferrer"
         >
           Alma Escamilla
