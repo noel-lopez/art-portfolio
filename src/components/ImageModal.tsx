@@ -13,13 +13,15 @@ export function ImageModal({ image }: Props) {
       scroll={false}
       className="fixed inset-0 z-10 w-full h-full bg-black bg-opacity-50 flex justify-center items-center cursor-auto"
     >
-      <Image
-        src={imagesFolder + image}
-        alt="Arumxchan Art"
-        width={650}
-        height={800}
-        sizes="40vw"
-      />
+      <picture className="relative h-[90vh] w-[90vw]">
+        <Image
+          src={imagesFolder + image}
+          alt="Arumxchan Art"
+          layout="fill"
+          objectFit="contain"
+          sizes="100vw"
+        />
+      </picture>
     </Link>
   );
 }
