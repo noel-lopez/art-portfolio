@@ -10,10 +10,10 @@ export function ProfileCard() {
         width={200}
         height={200}
         className="rounded-full"
-        alt="Arumxchan's Profile Picture"
+        alt="Aruma's Profile Picture"
       />
       <h1 className="mt-8 text-2xl font-bold uppercase selection:bg-pink-500 selection:text-white">
-        {"Arumxchan's Portfolio"}
+        {"Aruma's Portfolio"}
       </h1>
       <h2 className="text-xl font-semibold mb-4 selection:bg-pink-500 selection:text-white">
         <span className="text-sm">⭐</span>
@@ -21,7 +21,7 @@ export function ProfileCard() {
         <span className="text-sm">⭐</span>
       </h2>
       <Link
-        href="https://www.linkedin.com/in/arumxchan/"
+        href="https://www.linkedin.com/in/Aruma/"
         target="_blank"
         rel="noreferrer"
         className="flex gap-2 items-center justify-center w-full rounded-lg border border-pink-400 bg-pink-400 px-3 py-0.5 text-xl tracking-widest text-white transition hover:bg-pink-500 hover:text-pink-100"
@@ -30,7 +30,7 @@ export function ProfileCard() {
         <span>LinkedIn</span>
       </Link>
       <Link
-        href="https://www.instagram.com/arumxchan"
+        href="https://www.instagram.com/aruma.tattoo"
         target="_blank"
         rel="noreferrer"
         className="flex justify-center gap-2 items-center w-full rounded-lg border border-pink-400 bg-pink-400 px-3 py-0.5 text-xl tracking-widest text-white transition hover:bg-pink-500 hover:text-pink-100"

@@ -16,7 +16,7 @@ export function ImageModal({ image }: Props) {
       <picture className="relative h-[90vh] w-[90vw]">
         <Image
           src={imagesFolder + image}
-          alt="Arumxchan Art"
+          alt="Aruma Art"
           layout="fill"
           objectFit="contain"
           sizes="100vw"

@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { gluten } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Arumxchan | Art",
-  description: "Arumxchan Art Portfolio",
+  title: "Aruma | Art",
+  description: "Aruma Art Portfolio",
 };
 
 export default function RootLayout({
